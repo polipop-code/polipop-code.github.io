@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "this is my developer portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "portfolio"
+  ],
+  "author": "Jesus Politron @polipop_art",
+  "license": "MIT"
+}
