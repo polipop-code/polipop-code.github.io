@@ -19,6 +19,10 @@ footer {
 	grid-template-columns: 1fr 1080px 1fr;
 }
 
+a {
+	text-decoration: none;
+}
+
 p {
 	display: block;
 	margin-block-start: 1em;

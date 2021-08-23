@@ -1,0 +1,54 @@
+.main__contact-bar {
+	grid-column-start: 2;
+	margin-bottom: 2rem;
+
+	display: flex;
+	justify-content: space-around;
+
+	border-bottom: 2px solid slategrey;
+}
+
+.main__project-tittle {
+    grid-column-start: 2;
+	width: 100%;
+	height: 2rem;
+}
+
+.main__project-tittle h3 {
+    text-align: center;
+    color: ;
+}
+
+.main__contact-bar a {
+	color: snow;
+	padding: 1rem;
+
+	font-size: 1.4rem;
+
+	background-color: slategrey;
+
+	border-radius: 2.5rem 2.5rem 0 0;
+}
+
+.main__porject-section {
+	padding: 1rem;
+
+	grid-column-start: 2;
+	width: 100%;
+
+	background-color: steelblue;
+}
+
+.project__section-item {
+	width: 100%;
+	height: 14rem;
+
+	display: flex;
+	align-items: center;
+}
+
+.project__section-item img {
+	width: 12rem;
+	height: 12rem;
+	margin: 1rem;
+}
