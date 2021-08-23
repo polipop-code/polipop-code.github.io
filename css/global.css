@@ -7,3 +7,32 @@
 html {
 	font-size: 62.5%;
 }
+
+body {
+	font-family: "Lato", sans-serif, Arial;
+}
+
+header,
+main,
+footer {
+	display: grid;
+	grid-template-columns: 1fr 1080px 1fr;
+}
+
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+
+	color: #1B262C;
+}
+
+@media (max-width: 1080px) {
+	header,
+	main,
+	footer {
+		grid-template-columns: 1% 1fr 1%;
+	}
+}
