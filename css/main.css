@@ -5,18 +5,18 @@
 	display: flex;
 	justify-content: space-around;
 
-	border-bottom: 2px solid slategrey;
+	border-bottom: 0.1rem solid #00c1d4;
 }
 
 .main__project-tittle {
-    grid-column-start: 2;
+	grid-column-start: 2;
 	width: 100%;
 	height: 2rem;
 }
 
 .main__project-tittle h3 {
-    text-align: center;
-    color: ;
+	text-align: center;
+	color: #1b262c;
 }
 
 .main__contact-bar a {
@@ -25,9 +25,9 @@
 
 	font-size: 1.4rem;
 
-	background-color: slategrey;
+	background-color: #00c1d4;
 
-	border-radius: 2.5rem 2.5rem 0 0;
+	border-radius: 50% 50% 0 0;
 }
 
 .main__porject-section {
@@ -36,19 +36,52 @@
 	grid-column-start: 2;
 	width: 100%;
 
-	background-color: steelblue;
+	/* background-color: steelblue; */
 }
 
 .project__section-item {
 	width: 100%;
-	height: 14rem;
+	height: 16rem;
+
+	padding: 1rem;
 
 	display: flex;
 	align-items: center;
+
+	border-radius: 2.5rem;
+	/* background-color: #fffffc; */
+	/* offset-x | offset-y | blur-radius | spread-radius | color */
+	box-shadow: 0.4rem 0.4rem 0.2rem 0.1rem rgba(0, 193, 212, 1);
 }
 
 .project__section-item img {
-	width: 12rem;
-	height: 12rem;
+	width: 10rem;
+	height: 10rem;
 	margin: 1rem;
+
+	border-radius: 2.5rem;
+}
+
+.project__section-description {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.project__section-description h4 {
+	font-size: 1.6rem;
+}
+
+.project__section-description p {
+	padding-right: 1rem;
+	font-size: 1.2rem;
+
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+
+	text-align: justify;
+	color: #1b262c;
 }
