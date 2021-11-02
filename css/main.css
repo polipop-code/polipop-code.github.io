@@ -60,6 +60,7 @@
 }
 
 .project__section-description h4 {
+	padding-left: 1rem;
 	margin-block-start: 1rem;
 	font-size: 1.6rem;
 }
@@ -67,6 +68,8 @@
 .project__section-description p,
 .main__skill-item p,
 .hobby__bar p {
+	padding-left: 1rem;
+	padding-right: 1rem;
 	font-size: 1.5rem;
 
 	display: block;
