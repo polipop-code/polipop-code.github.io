@@ -16,7 +16,7 @@ header,
 main,
 footer {
 	display: grid;
-	grid-template-columns: 1fr 1080px 1fr;
+	grid-template-columns: 1fr 800px 1fr;
 }
 
 a {
