@@ -1,0 +1,40 @@
+/* Mobile and Tablet */
+@media only screen and (max-width: 767px) {
+	header {
+		margin-bottom: 4rem;
+	}
+
+	.navbar {
+		padding: 0 5%;
+	}
+
+	.about article {
+		width: 90%;
+		flex-direction: column;
+	}
+
+	.about article img {
+		width: 48%;
+	}
+
+	.project-item {
+		display: block;
+	}
+
+	.blog-item article h4 {
+		margin-top: 1rem;
+	}
+
+	footer {
+		height: 24rem;
+	}
+
+	.up-footer {
+		display: block;
+		text-align: center;
+	}
+
+	.up-footer img {
+		margin: 0 2rem;
+	}
+}
