@@ -24,6 +24,7 @@ header {
 .navbar button {
 	width: 8rem;
 	height: 4rem;
+	/* box-shadow: -0.2rem -0.2rem 0.1rem rgba(253, 185, 252, 1), 0.2rem 0.2rem 0.1rem rgba(125, 237, 255, 1); */
 }
 
 /* ---------- About-me Section ---------- */
@@ -124,15 +125,24 @@ header {
 }
 
 .project-item__wrapper button {
-	margin-bottom: 1rem;
 	width: 12rem;
 	height: 3rem;
+	margin-bottom: 1rem;
+	/* box-shadow: 0.2rem 0.2rem 0.1rem 0.1rem rgba(253, 185, 252, 1); */
 }
 
-/* Blogs */
+.all-projects {
+	width: 22rem;
+	height: 3rem;
+	margin: 2rem auto;
+	/* box-shadow: 0.2rem 0.2rem 0.1rem 0.1rem rgba(253, 185, 252, 1); */
+}
+
+/* ---------- Blogs ---------- */
 .blogs {
 	width: 100%;
 	display: flex;
+	flex-direction: column;
 }
 
 .blog-item {
@@ -161,11 +171,17 @@ header {
 }
 
 .blog-item article button {
-	margin: 2rem;
 	width: 10rem;
 	height: 3rem;
-	border: none;
-	border-radius: 0.4rem;
+	margin: 2rem;
+	/* box-shadow: 0.2rem 0.2rem 0.1rem 0.1rem rgba(125, 237, 255, 1); */
+}
+
+.all-blogs {
+	width: 22rem;
+	height: 3rem;
+	margin: 2rem auto;
+	/* box-shadow: 0.2rem 0.2rem 0.1rem 0.1rem rgba(125, 237, 255, 1); */
 }
 
 /* Footer */
