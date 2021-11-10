@@ -21,8 +21,20 @@
 		display: block;
 	}
 
+	.blogs-wrapper {
+		padding: 0 1%;
+	}
+
+	.blog-item {
+		width: 17rem;
+	}
+
 	.blog-item article h4 {
 		margin-top: 1rem;
+	}
+
+	.blog-item article p {
+		font-size: 1.3rem;
 	}
 
 	footer {
