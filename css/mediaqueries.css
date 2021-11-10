@@ -17,6 +17,10 @@
 		width: 48%;
 	}
 
+	.projects {
+		clip-path: polygon(0 2%, 100% 0, 100% 98%, 0 100%);
+	}
+
 	.project-item {
 		display: block;
 	}
@@ -35,6 +39,7 @@
 
 	.blog-item article p {
 		font-size: 1.3rem;
+		line-height: 1.4em;
 	}
 
 	footer {
