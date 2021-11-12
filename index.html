@@ -25,6 +25,12 @@
 		<link rel="stylesheet" href="./css/globals.css" />
 		<link rel="stylesheet" href="./css/main.css" />
 		<link rel="stylesheet" href="./css/mediaqueries.css" />
+
+		<!-- Favicon -->
+		<link
+			rel="shortcut icon"
+			href="https://d29fhpw069ctt2.cloudfront.net/icon/image/39329/preview.svg"
+		/>
 	</head>
 
 	<body>
@@ -34,13 +40,8 @@
 				<a href="./index.html">
 					<img src="https://i.ibb.co/yWw60js/hogar.png" alt="" />
 				</a>
-				<a class="link" href="#">Acerca de mí</a>
-				<a
-					class="link"
-					href="https://drive.google.com/file/d/1VA7KYProsyEY96CbmFZgKbwlbHoeDX7o/view?usp=sharing"
-					target="_blank"
-					>Mi curriculum</a
-				>
+				<a class="navbar-link" href="#">Acerca de mí</a>
+				<a class="navbar-link" href="#">Mi curriculum</a>
 				<button>Charlemos</button>
 			</nav>
 		</header>
@@ -48,19 +49,19 @@
 		<!-- Main Section -->
 		<!-- About -->
 		<section class="about">
-			<article>
+			<article class="about-article">
 				<img
 					src="https://i.pinimg.com/originals/05/01/ba/0501ba3acc682a75faf09795a0ecde1e.png"
 					alt=""
 				/>
-				<div class="article-wrapper">
+				<div class="about-article__description">
 					<p><i> ¡Hola! Mi nombre es Jesus, y soy </i></p>
 					<h1>Fullstack JavaScript Developer</h1>
 					<h2>De Jalisco, México</h2>
 					<p>
-						Soy un creador y pensador nato, siempre busco dar soluciones con un
-						código limpio y simple, minimalista por naturaleza. En búsqueda de
-						nuevos desafíos que me permitan construir el futuro.
+						Soy un creador y pensador nato, siempre busco dar soluciones con un código limpio y
+						simple, minimalista por naturaleza. En búsqueda de nuevos desafíos que me permitan
+						construir el futuro.
 					</p>
 				</div>
 			</article>
@@ -69,122 +70,106 @@
 		<!-- Projeects -->
 		<h3 class="section-title">Mis proyectos</h3>
 
-		<section class="projects">
+		<section class="project">
 			<!-- Discord for education -->
-			<a
-				href="https://polipop-code.github.io/discord-for-education/"
-				target="_blank"
-			>
-				<div class="project-item">
+
+			<div class="project-item">
+				<a href="https://polipop-code.github.io/discord-for-education/" target="_blank">
 					<img
 						src="https://i.pinimg.com/originals/1b/92/be/1b92be9e26c6e1e1e29c3bfed1b68e5e.jpg"
 						alt=""
 					/>
-					<div class="project-item__wrapper">
-						<h4>Discord para la educación</h4>
-						<span>HTML</span>
-						<span>CSS</span>
-						<span>Node.js</span>
-						<span>Discord API</span>
-						<span class="languaje">Español</span>
-						<p>
-							"Discord para la educación" Es un proyecto donde de la mano de la
-							API de Discord en su versión 11.6.4 se desarrollo un BOT, el cual
-							cuando se encuentra integrado a un servidor dentro de la
-							aplicación Discord adquiere la funcionalidad de desplegar una
-							plantilla de canales de texto y voz, esto por medio de una
-							instrucción que se inserta dentro de un canal de texto.
-						</p>
-						<button>
-							<a
-								href="https://github.com/polipop-code/discord-for-education"
-								target="_blank"
-								>Ver en GitHub</a
-							>
-						</button>
-					</div>
+				</a>
+				<div class="project-item__description">
+					<h4>Discord para la educación</h4>
+					<span>HTML</span>
+					<span>CSS</span>
+					<span>Node.js</span>
+					<span>Discord API</span>
+					<span class="languaje">Español</span>
+					<p>
+						"Discord para la educación" Es un proyecto donde de la mano de la API de Discord en su
+						versión 11.6.4 se desarrollo un BOT, el cual cuando se encuentra integrado a un servidor
+						dentro de la aplicación Discord adquiere la funcionalidad de desplegar una plantilla de
+						canales de texto y voz, esto por medio de una instrucción que se inserta dentro de un
+						canal de texto.
+					</p>
+					<button>
+						<a href="https://github.com/polipop-code/discord-for-education" target="_blank"
+							>Ver en GitHub</a
+						>
+					</button>
 				</div>
-			</a>
+			</div>
 
 			<!-- Google clone -->
-			<a href="https://polipop-code.github.io/google-clone/" target="_blank">
-				<div class="project-item">
+			<div class="project-item">
+				<a href="https://polipop-code.github.io/google-clone/" target="_blank">
 					<img
 						src="https://i.pinimg.com/564x/7e/a2/a0/7ea2a086cc5082330324a94c52a66531.jpg"
 						alt=""
 					/>
-					<div class="project-item__wrapper">
-						<h4>Google clone</h4>
-						<span>HTML</span>
-						<span>CSS</span>
-						<span>JavaScript</span>
-						<span class="languaje">English</span>
-						<p>
-							"Google clone" Es un practico y funcional clon de la página de
-							búsqueda principal de Google. Totalmente responsivo contiene un
-							evento programado en JavaScript para ejecutar una busqueda en
-							Google.com despues de ingresar algún texto en la barra de busqueda
-							y preciónar la tecla "Enter".
-						</p>
-						<button>
-							<a
-								href="https://github.com/polipop-code/google-clone"
-								target="_blank"
-								>Ver en GitHub</a
-							>
-						</button>
-					</div>
+				</a>
+				<div class="project-item__description">
+					<h4>Google clone</h4>
+					<span>HTML</span>
+					<span>CSS</span>
+					<span>JavaScript</span>
+					<span class="languaje">English</span>
+					<p>
+						"Google clone" Es un practico y funcional clon de la página de búsqueda principal de
+						Google. Totalmente responsivo contiene un evento programado en JavaScript para ejecutar
+						una busqueda en Google.com despues de ingresar algún texto en la barra de busqueda y
+						preciónar la tecla "Enter".
+					</p>
+					<button>
+						<a href="https://github.com/polipop-code/google-clone" target="_blank">Ver en GitHub</a>
+					</button>
 				</div>
-			</a>
+			</div>
 
 			<!-- My shop -->
-			<a
-				href="https://boiling-shore-06910.herokuapp.com/api/v1/products"
-				target="_blank"
-			>
-				<div class="project-item">
+			<div class="project-item">
+				<a href="https://boiling-shore-06910.herokuapp.com/api/v1/products" target="_blank">
 					<img
 						src="https://i.pinimg.com/564x/a4/21/15/a42115bdecc660257ab4bc2363ce480f.jpg"
 						alt=""
 					/>
-					<div class="project-item__wrapper">
-						<h4>My shop</h4>
-						<span>MERN stack</span>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ab
-							cum qui magnam eum dignissimos alias iste odio unde adipisci odit
-							dolore facilis ut. Ullam odit voluptatum repudiandae iste vel!
-						</p>
-						<button>
-							<a href="https://github.com/polipop-code/my-shop" target="_blank"
-								>Ver en GitHub</a
-							>
-						</button>
-					</div>
+				</a>
+				<div class="project-item__description">
+					<h4>My shop</h4>
+					<span>MERN stack</span>
+					<p>
+						"My shop" Es un proyecto de construcción de una tienda en línea, de la mano de los
+						cursos de Platzi y el conjunto de tecnologías MERN este proyecto esta siendo
+						desarrollado con fines meramente educativos, lo cual conlleva la teoría y práctica de
+						diversas tecnologías con alto uso en la industria tech.
+					</p>
+					<button>
+						<a href="https://github.com/polipop-code/my-shop" target="_blank">Ver en GitHub</a>
+					</button>
 				</div>
-			</a>
+			</div>
 
 			<!-- Bar app -->
-			<a href="#">
-				<div class="project-item">
+			<div class="project-item">
+				<a href="#">
 					<img
 						src="https://i.pinimg.com/564x/27/95/36/279536acc941d97c47487a901620bde9.jpg"
 						alt=""
 					/>
-					<div class="project-item__wrapper">
-						<h4>Bar app</h4>
-						<span>MERN stack</span>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ab
-							cum qui magnam eum dignissimos alias iste odio unde adipisci odit
-							dolore facilis ut. Ullam odit voluptatum repudiandae iste vel!
-						</p>
-						<button>
-							<a href="#">Ver en GitHub</a>
-						</button>
-					</div>
+				</a>
+				<div class="project-item__description">
+					<h4>Bar app</h4>
+					<span>React</span>
+					<span>Web app</span>
+					<p>...</p>
+					<button>
+						<a href="#">Próximamente</a>
+					</button>
 				</div>
-			</a>
+			</div>
+
 			<button class="all-projects">
 				<a href="#"> Ver todos los proyectos </a>
 			</button>
@@ -193,8 +178,8 @@
 		<!-- Blogs -->
 		<h3 class="section-title">Mis blogs</h3>
 
-		<section class="blogs">
-			<div class="blogs-wrapper">
+		<section class="blog">
+			<div class="blog-wrapper">
 				<div class="blog-item">
 					<article>
 						<img
@@ -203,15 +188,15 @@
 						/>
 						<h4>Blog Tittle</h4>
 						<p>
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
-							repellendus blanditiis maxime corporis ducimus deserunt ipsam
-							vitae.
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta repellendus
+							blanditiis maxime corporis ducimus deserunt ipsam vitae.
 						</p>
 						<button>
 							<a href="#"> Leer más </a>
 						</button>
 					</article>
 				</div>
+
 				<div class="blog-item">
 					<article>
 						<img
@@ -220,15 +205,15 @@
 						/>
 						<h4>Blog Tittle</h4>
 						<p>
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
-							repellendus blanditiis maxime corporis ducimus deserunt ipsam
-							vitae.
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta repellendus
+							blanditiis maxime corporis ducimus deserunt ipsam vitae.
 						</p>
 						<button>
 							<a href="#"> Leer más </a>
 						</button>
 					</article>
 				</div>
+
 				<div class="blog-item">
 					<article>
 						<img
@@ -237,15 +222,15 @@
 						/>
 						<h4>Blog Tittle</h4>
 						<p>
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
-							repellendus blanditiis maxime corporis ducimus deserunt ipsam
-							vitae.
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta repellendus
+							blanditiis maxime corporis ducimus deserunt ipsam vitae.
 						</p>
 						<button>
 							<a href="#"> Leer más </a>
 						</button>
 					</article>
 				</div>
+
 				<div class="blog-item">
 					<article>
 						<img
@@ -254,9 +239,8 @@
 						/>
 						<h4>Blog Tittle</h4>
 						<p>
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
-							repellendus blanditiis maxime corporis ducimus deserunt ipsam
-							vitae.
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta repellendus
+							blanditiis maxime corporis ducimus deserunt ipsam vitae.
 						</p>
 						<button>
 							<a href="#"> Leer más </a>

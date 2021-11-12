@@ -1,5 +1,6 @@
-/* ---------- Header ---------- */
+/* ---------- Header Section ---------- */
 header {
+	width: 100%;
 	margin-bottom: 6rem;
 }
 
@@ -17,7 +18,7 @@ header {
 	height: 4rem;
 }
 
-.navbar a {
+.navbar-link {
 	font-size: 1.6rem;
 }
 
@@ -33,45 +34,38 @@ header {
 	align-items: center;
 }
 
-.about article {
+.about-article {
 	width: 80%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.about article img {
+.about-article img {
 	width: 24%;
 	border-radius: 50%;
 }
 
-.article-wrapper {
+.about-article__description {
 	width: 72%;
 }
 
-.article-wrapper h1 {
+.about-article__description h1 {
 	font-size: 2.2rem;
 }
 
-.article-wrapper h2 {
+.about-article__description h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
 }
 
-.article-wrapper p {
+.about-article__description p {
 	font-size: 1.6rem;
 	text-align: justify;
 }
 
 /* ---------- Projects Section ---------- */
-.section-title {
-	margin: 2rem 0;
-	font-size: 2.2rem;
-	font-weight: 500;
-	text-align: center;
-}
-
-.projects {
+.project {
 	width: 100%;
 	padding: 6rem 0;
 	display: flex;
@@ -96,18 +90,18 @@ header {
 	border-radius: 2.5rem;
 }
 
-.project-item__wrapper {
+.project-item__description {
 	margin-left: 2rem;
 	margin-right: 2rem;
 }
 
-.project-item__wrapper h4 {
+.project-item__description h4 {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-bottom: 1rem;
 }
 
-.project-item__wrapper span {
+.project-item__description span {
 	margin-right: 0.4rem;
 	padding: 0.4rem;
 	font-size: 1.4rem;
@@ -115,16 +109,16 @@ header {
 	background-color: lightcyan;
 }
 
-.project-item__wrapper .languaje {
+.project-item__description .languaje {
 	background-color: lightyellow;
 }
 
-.project-item__wrapper p {
+.project-item__description p {
 	font-size: 1.5rem;
 	text-align: justify;
 }
 
-.project-item__wrapper button {
+.project-item__description button {
 	width: 12rem;
 	margin-bottom: 1rem;
 }
@@ -134,14 +128,14 @@ header {
 	margin: 2rem auto;
 }
 
-/* ---------- Blogs ---------- */
-.blogs {
+/* ---------- Blogs Section ---------- */
+.blog {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 }
 
-.blogs-wrapper {
+.blog-wrapper {
 	width: 100%;
 	padding: 0 10%;
 	display: flex;
@@ -185,7 +179,7 @@ header {
 	margin: 2rem auto;
 }
 
-/* Footer */
+/* ---------- Footer Section ---------- */
 footer {
 	margin-top: 4rem;
 	width: 100%;
