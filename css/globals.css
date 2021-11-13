@@ -47,5 +47,13 @@ p {
 
 button {
 	height: 4rem;
+	border: 1px solid #3db2ff;
+	border-radius: 0.4rem;
+	background-color: white;
+}
+
+button,
+button a {
 	font-size: 1.4rem;
+	color: #3db2ff;
 }
