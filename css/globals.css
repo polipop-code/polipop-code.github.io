@@ -14,8 +14,15 @@ body {
 	flex-direction: column;
 }
 
-a {
+a,
+a:hover,
+a:focus,
+a:active {
 	text-decoration: none;
+	color: inherit;
+}
+
+a {
 	color: #273b47;
 }
 
