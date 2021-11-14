@@ -44,13 +44,6 @@ h6 {
 	color: #273b47;
 }
 
-.section-title {
-	margin: 2rem 0;
-	font-size: 2.2rem;
-	font-weight: 500;
-	text-align: center;
-}
-
 p {
 	display: block;
 	margin-block-start: 1em;
@@ -69,4 +62,97 @@ button {
 button,
 button a {
 	font-size: 1.4rem;
+}
+
+/* ---------- Header Section ---------- */
+header {
+	width: 100%;
+	margin-bottom: 6rem;
+}
+
+.navbar {
+	width: 100%;
+	height: 6rem;
+	padding: 0 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar img {
+	width: 4rem;
+	height: 4rem;
+	transition: ease-in-out;
+	transition: transform 0.2s;
+}
+
+.navbar img:hover {
+	transform: scale(1.4);
+}
+
+.navbar-link {
+	font-size: 1.6rem;
+	text-underline-offset: 0.4rem;
+	transition: ease-in-out;
+	transition: 0.2s;
+}
+
+.navbar-link:hover {
+	text-decoration: underline;
+	text-decoration-color: rgba(255, 36, 66, 1);
+}
+
+.navbar button {
+	width: 8rem;
+}
+
+/* ---------- Main Section ---------- */
+
+.section-title {
+	margin: 2rem 0;
+	font-size: 2.2rem;
+	font-weight: 500;
+	text-align: center;
+}
+
+/* ---------- Footer Section ---------- */
+footer {
+	width: 100%;
+	height: 16rem;
+	margin-top: 4rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.up-footer {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: rgba(255, 237, 218, 1);
+}
+
+.up-footer p,
+.low-footer p {
+	font-size: 1.6rem;
+}
+
+.up-footer img {
+	width: 4rem;
+	height: 4rem;
+	transition: ease-in-out;
+	transition: transform 0.2s;
+}
+
+.up-footer img:hover {
+	transform: scale(1.6);
+}
+
+.low-footer {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
