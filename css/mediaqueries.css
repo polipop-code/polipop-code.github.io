@@ -1,5 +1,6 @@
 /* Mobile and Tablet */
 @media only screen and (max-width: 767px) {
+	/* ---------- Header ---------- */
 	header {
 		margin-bottom: 4rem;
 	}
@@ -17,6 +18,7 @@
 		width: 48%;
 	}
 
+	/* ---------- Main ---------- */
 	.project {
 		clip-path: polygon(0 2%, 100% 0, 100% 98%, 0 100%);
 	}
@@ -25,6 +27,7 @@
 		display: block;
 	}
 
+	/* ---------- Blog ---------- */
 	.blog-wrapper {
 		padding: 0 3%;
 	}
@@ -37,6 +40,7 @@
 		font-size: 1.3rem;
 	}
 
+	/* ---------- Footer ---------- */
 	footer {
 		height: 24rem;
 	}
@@ -53,6 +57,7 @@
 
 /* Desktop */
 @media only screen and (min-width: 1366px) {
+	/* ---------- Main ---------- */
 	.project {
 		flex-direction: unset;
 		flex-wrap: wrap;
