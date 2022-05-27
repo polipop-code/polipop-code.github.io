@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/windows,macos,linux
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,linux
+# Created by https://www.toptal.com/developers/gitignore/api/windows,linux,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,linux,macos
 
 ### Linux ###
 *~
@@ -46,6 +46,10 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+### macOS Patch ###
+# iCloud generated files
+*.icloud
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -72,4 +76,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux
+# End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos
+
+**/node_modules
