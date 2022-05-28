@@ -70,6 +70,11 @@
 .project--item_presentation figure a img {
     width: 100%;
     border-radius: 2.4rem;
+    transition: all 0.12s ease-in-out;
+}
+
+.project--item_presentation figure a img:hover {
+    transform: scale(1.12);
 }
 
 .project--item_description {
@@ -97,11 +102,17 @@
     padding: 2rem;
     border: none;
     border-radius: 1.2rem;
+    transition: all 0.12s ease-in-out;
 }
 
 .main > button {
     grid-column: 2 / 12;
     margin: 0 auto 4rem;
+}
+
+.project--item_description button:hover,
+.main > button:hover {
+    transform: scale(1.12);
 }
 
 .footer {
@@ -132,6 +143,11 @@
 .footer_second_section img {
     width: 4rem;
     margin: 0 2rem;
+    transition: all 0.12s ease-in-out;
+}
+
+.footer_second_section img:hover {
+    transform: scale(1.24);
 }
 
 /* Media Q */
