@@ -9,7 +9,7 @@ basics of `CSS`, like displays as 'Flexbox' and 'Grid', transformations,
 transitions and also I applied design concepts like `mobile first` and
 `responisve design`.
 
-### And where is the JavaScript? 
+## And where is the JavaScript? 
 
 Well, I invite to you to check my personal project to figure outh hehe o(*￣▽￣*)ブ
 here here https://polipop-code.github.io/
