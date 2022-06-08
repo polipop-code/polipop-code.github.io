@@ -2,23 +2,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
+	font-size: 62.5%;
+	scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Lato", sans-serif;
-    font-size: 1.6rem;
-    text-rendering: optimizeLegibility;
-    line-height: 1.5;
-    color: #5d6063;
-    background-color: #fefefe;
+	font-family: "Lato", sans-serif;
+	font-size: 1.6rem;
+	text-rendering: optimizeLegibility;
+	line-height: 1.5;
+	color: #5d6063;
+	background-color: #fefefe;
 }
 
 h1,
@@ -27,36 +27,42 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Montserrat", sans-serif;
-    line-height: normal;
-    color: #5d6063;
+	font-family: "Montserrat", sans-serif;
+	line-height: normal;
+	color: #5d6063;
 }
 
 h1 {
-    font-size: 3.2rem;
+	font-size: 3.2rem;
 }
 h2 {
-    font-size: 2.8rem;
+	font-size: 2.8rem;
 }
 h3 {
-    font-size: 2.4rem;
+	font-size: 2.4rem;
 }
 
 a {
-    text-decoration: none;
-    /* color: #407fc7; */
-    color: #6a67ce;
+	text-decoration: none;
+	/* color: #407fc7; */
+	color: #6a67ce;
+}
+
+ul,
+ol {
+	list-style: none;
 }
 
 input,
-textarea,
 button,
+textarea,
 select,
+optgroup,
 a {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	font: inherit;
 }
 
 button {
-    font: inherit;
-    cursor: pointer;
+	cursor: pointer;
 }
